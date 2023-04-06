@@ -11,7 +11,6 @@ class RMTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         self.view.backgroundColor = .red
         self.setUpTabs()
     }
@@ -43,8 +42,5 @@ class RMTabBarController: UITabBarController {
         
         setViewControllers([nav1,nav2,nav3, nav4], animated: true)
     }
-    
-    
-    
 }
 
