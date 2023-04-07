@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RMCharacter {
+struct RMCharacter: Codable {
     let id: Int
     let name: String
     let status: RMCharacterStatus
@@ -15,7 +15,7 @@ struct RMCharacter {
     let type: String
     let gender: RMCharacterGender
     let origin: RMOrigin
-    let location: RMLocationViewController
+    let location: RMSingleLocation
     let image: String
     let episode:[String]
     let url: String
